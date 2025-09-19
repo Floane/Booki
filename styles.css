@@ -340,6 +340,11 @@ footer {
         flex-direction: column;
     }
 
+    .populaires-cartes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .activites img {
         height: 200px;
     }
