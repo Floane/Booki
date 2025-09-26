@@ -353,14 +353,8 @@ footer {
     }
 }
 
-@media (max-width: 989px) {
-    .cartes-hebergements, .populaires-cartes, .activites-cartes {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 /****** Mobile ******/
-@media (max-width: 768px) {
+@media (max-width: 989px) {
     .container {
         padding: 0;
     }
@@ -420,8 +414,6 @@ footer {
         flex-wrap: wrap;
         grid-template-columns: repeat(2, 1fr);
     }
-
-    
 
     .formulaire {
         padding: 0 15px;
