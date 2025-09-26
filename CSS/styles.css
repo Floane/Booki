@@ -289,6 +289,7 @@ input, .btn-rechercher {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 30px;
+    align-items: stretch;
 }
 
 .activites .carte {
@@ -297,6 +298,7 @@ input, .btn-rechercher {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    height: 100%;
 }
 
 .activites img {
