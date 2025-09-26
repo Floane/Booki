@@ -372,11 +372,12 @@ footer {
         margin-top: 20px;
     }
 
-    ul {
+    nav ul {
         width: 100%;
         margin: 0;
         padding: 0;
-        gap: 0 !important;
+        display: flex;
+        gap: 0;
     }
 
     .lien-nav {
@@ -445,5 +446,12 @@ footer {
     footer {
         flex-direction: column;
         gap: 30px;
+    }
+
+    footer ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
     }
 }
